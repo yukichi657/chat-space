@@ -26,8 +26,8 @@
 |------|----|-------|
 |other_user|string|null: false|
 ### Association
-- belongs_to :user
-- belongs_to :friend
+- has_many :users
+- has_many :friends
 - has_many :messages
 
 ## messagesテーブル
