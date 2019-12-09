@@ -34,7 +34,7 @@
 
 ## messagesテーブル
 |image|text||
-|text|text|null: false|
+|text|text||
 |user_id|integer|null: false, foreign_key: true|
 |friend_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
