@@ -16,6 +16,7 @@
 |Column|Type|Options|
 |------|----|-------|
 |other_user|string|null: false|
+|message_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
 - has_many :groups
@@ -25,6 +26,8 @@
 |Column|Type|Options|
 |------|----|-------|
 |other_user|string|null: false|
+|user_id|integer|null: false, foreign_key: true|
+|friend_id|null: false, foreign_key: true|
 ### Association
 - has_many :users
 - has_many :friends
@@ -33,6 +36,9 @@
 ## messagesテーブル
 |image|text||
 |text|text|null: false|
+|user_id|integer|null: false, foreign_key: true|
+|friend_id|integer|null: false, foreign_key: true|
+|group_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
 - belongs_to :group
