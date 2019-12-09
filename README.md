@@ -12,16 +12,6 @@
 - has_many :groups
 - has_may :messages
 
-## friendsテーブル
-|Column|Type|Options|
-|------|----|-------|
-|other_user|string|null: false|
-|message_id|integer|null: false, foreign_key: true|
-### Association
-- belongs_to :user
-- has_many :groups
-- has_many :messages
-
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
