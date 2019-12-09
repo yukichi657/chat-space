@@ -6,7 +6,7 @@
 |------|----|-------|
 |email|string|null: false|
 |password|string|null: false|
-|nickname|string|null: false|
+|nickname|string|null: false, index: true|
 ### Association
 - has_many :friends
 - has_many :groups
