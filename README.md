@@ -8,7 +8,7 @@
 |password|string|null: false|
 |nickname|string|null: false, index: true|
 ### Association
-- has_many :friends
+- has_many ：groups_users
 - has_many :groups
 - has_may :messages
 
@@ -20,7 +20,7 @@
 |friend_id|null: false, foreign_key: true|
 ### Association
 - has_many :users
-- has_many :friends
+- has_many :groups_users
 - has_many :messages
 
 ## groups_usersテーブル
