@@ -17,7 +17,6 @@
 |------|----|-------|
 |groups_users|string|null: false|
 |user_id|integer|null: false, foreign_key: true|
-|friend_id|null: false, foreign_key: true|
 ### Association
 - has_many :users
 - has_many :groups_users
