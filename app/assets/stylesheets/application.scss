@@ -6,7 +6,15 @@
 @import "message/_messages";
 @import "mixins/vendor_prefix";
 @import "modules/chat";
+<<<<<<< HEAD
 @import "modules/flash";
 @import "modules/group";
 @import "modules/side_bar";
 @import "modules/user";
+=======
+@import "modules/user";
+@import "modules/group";
+@import "messages/messages.scss";
+@import "config/colors";
+@import "modules/flash";
+>>>>>>> master
