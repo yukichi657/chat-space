@@ -11,8 +11,9 @@
               = user.name
     .right-header
       .right-header__button
-        Edit
-  
+        = link_to edit_group_path(current_user) do
+          %i.fa.fa-edit
+
   .messages
     = render @messages
 
